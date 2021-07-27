@@ -2,12 +2,13 @@
   "name": "numerology-mock-api",
   "version": "1.0.0",
   "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "start-dev": "json-server --watch numerology-database/db.json"
+  },
   "repository": "git@github.com:maariyadiminsky/numerology-mock-api.git",
   "author": "maariyadiminsky",
   "license": "MIT",
-  "scripts": {
-    "start": "json-server --watch numerology-database/db.json"
-  },
   "dependencies": {
     "heroku": "^7.56.1",
     "json-server": "^0.16.3"
