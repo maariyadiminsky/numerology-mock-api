@@ -1,5 +1,5 @@
 # numerology-mock-api
-Mock Numerology API created for my Pluto app.
+Mock Numerology API created for my [Pluto](https://github.com/maariyadiminsky/pluto) app.
 Reports are interpreted using the Pythagorean(not Chaldean) Numerology System.
 
 ---
